@@ -1,0 +1,476 @@
+2024-09-02 16:06:35,548 - INFO - Dataset loaded.
+2024-09-02 16:07:17,295 - INFO - Model training completed.
+2024-09-02 16:07:17,295 - INFO - Best parameters: {'clf__alpha': 0.5, 'tfidf__max_df': 0.75, 'tfidf__min_df': 5, 'tfidf__ngram_range': (1, 2)}
+2024-09-02 16:07:17,295 - INFO - Best cross-validation score: 0.56
+2024-09-02 16:07:17,648 - INFO - Model accuracy: 0.56
+2024-09-02 16:07:17,648 - INFO - Model precision: 0.57
+2024-09-02 16:07:17,648 - INFO - Model recall: 0.56
+2024-09-02 16:07:17,648 - INFO - Model F1 score: 0.54
+2024-09-02 16:07:17,649 - INFO - Classification Report:
+2024-09-02 16:07:17,661 - INFO -precision    recall  f1-score   support
+
+            ACCOUNTANT       0.76      0.90      0.83        29
+              ADVOCATE       0.55      0.40      0.46        30
+           AGRICULTURE       1.00      0.12      0.22         8
+               APPAREL       0.62      0.25      0.36        20
+                  ARTS       0.00      0.00      0.00        18
+            AUTOMOBILE       0.00      0.00      0.00         6
+              AVIATION       0.59      0.76      0.67        21
+               BANKING       0.65      0.57      0.60        23
+                   BPO       0.00      0.00      0.00         2
+  BUSINESS-DEVELOPMENT       0.56      0.67      0.61        27
+                  CHEF       0.85      0.71      0.77        24
+          CONSTRUCTION       0.92      0.65      0.76        34
+            CONSULTANT       0.25      0.05      0.08        20
+              DESIGNER       0.82      0.74      0.78        19
+         DIGITAL-MEDIA       0.82      0.36      0.50        25
+           ENGINEERING       0.50      0.62      0.55        21
+               FINANCE       0.50      0.58      0.54        19
+               FITNESS       0.58      0.37      0.45        19
+            HEALTHCARE       0.26      0.50      0.34        20
+                    HR       0.50      0.89      0.64        18
+INFORMATION-TECHNOLOGY       0.43      0.92      0.59        26
+      PUBLIC-RELATIONS       0.41      0.76      0.53        17
+                 SALES       0.53      0.62      0.57        29
+               TEACHER       0.57      0.59      0.58        22
+
+              accuracy                           0.56       497
+             macro avg       0.53      0.50      0.48       497
+          weighted avg       0.57      0.56      0.54       497
+
+2024-09-02 16:07:17,787 - INFO - Model saved to resume_categorizer_model.pkl
+2024-09-02 16:07:17,851 - INFO - Model loaded.
+2024-09-02 16:07:18,381 - INFO - Predicted categories: ['TEACHER' 'HR' 'INFORMATION-TECHNOLOGY']
+2024-09-02 16:07:19,646 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 16:16:17,885 - INFO - Using device: cuda
+2024-09-02 16:16:18,380 - INFO - Dataset loaded.
+2024-09-02 16:16:19,942 - INFO - Label mapping: {0: 'ACCOUNTANT', 1: 'ADVOCATE', 2: 'AGRICULTURE', 3: 'APPAREL', 4: 'ARTS', 5: 'AUTOMOBILE', 6: 'AVIATION', 7: 'BANKING', 8: 'BPO', 9: 'BUSINESS-DEVELOPMENT', 10: 'CHEF', 11: 'CONSTRUCTION', 12: 'CONSULTANT', 13: 'DESIGNER', 14: 'DIGITAL-MEDIA', 15: 'ENGINEERING', 16: 'FINANCE', 17: 'FITNESS', 18: 'HEALTHCARE', 19: 'HR', 20: 'INFORMATION-TECHNOLOGY', 21: 'PUBLIC-RELATIONS', 22: 'SALES', 23: 'TEACHER'}
+2024-09-02 16:22:09,437 - INFO - Using device: cuda
+2024-09-02 16:22:09,947 - INFO - Dataset loaded.
+2024-09-02 16:22:11,773 - INFO - Label mapping: {0: 'ACCOUNTANT', 1: 'ADVOCATE', 2: 'AGRICULTURE', 3: 'APPAREL', 4: 'ARTS', 5: 'AUTOMOBILE', 6: 'AVIATION', 7: 'BANKING', 8: 'BPO', 9: 'BUSINESS-DEVELOPMENT', 10: 'CHEF', 11: 'CONSTRUCTION', 12: 'CONSULTANT', 13: 'DESIGNER', 14: 'DIGITAL-MEDIA', 15: 'ENGINEERING', 16: 'FINANCE', 17: 'FITNESS', 18: 'HEALTHCARE', 19: 'HR', 20: 'INFORMATION-TECHNOLOGY', 21: 'PUBLIC-RELATIONS', 22: 'SALES', 23: 'TEACHER'}
+2024-09-02 16:25:53,068 - INFO - Model training completed.
+2024-09-02 16:25:53,484 - INFO - Model saved to resume_categorizer_transformer_model
+2024-09-02 16:26:02,041 - INFO - Evaluation metrics: {'eval_loss': 0.9408245086669922, 'eval_accuracy': 0.7947686116700201, 'eval_precision': 0.7939038034269007, 'eval_recall': 0.7947686116700201, 'eval_f1': 0.7804907366870293, 'eval_runtime': 8.5563, 'eval_samples_per_second': 58.086, 'eval_steps_per_second': 1.87, 'epoch': 3.0}
+2024-09-02 16:26:02,189 - INFO - Model and tokenizer loaded.
+2024-09-02 16:26:02,768 - INFO - Predicted categories: ['TEACHER', 'AVIATION', 'FITNESS']
+2024-09-02 16:26:04,035 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 16:30:35,775 - INFO - Using device: cuda
+2024-09-02 16:30:36,273 - INFO - Dataset loaded.
+2024-09-02 16:30:37,844 - INFO - Label mapping: {0: 'ACCOUNTANT', 1: 'ADVOCATE', 2: 'AGRICULTURE', 3: 'APPAREL', 4: 'ARTS', 5: 'AUTOMOBILE', 6: 'AVIATION', 7: 'BANKING', 8: 'BPO', 9: 'BUSINESS-DEVELOPMENT', 10: 'CHEF', 11: 'CONSTRUCTION', 12: 'CONSULTANT', 13: 'DESIGNER', 14: 'DIGITAL-MEDIA', 15: 'ENGINEERING', 16: 'FINANCE', 17: 'FITNESS', 18: 'HEALTHCARE', 19: 'HR', 20: 'INFORMATION-TECHNOLOGY', 21: 'PUBLIC-RELATIONS', 22: 'SALES', 23: 'TEACHER'}
+2024-09-02 16:31:09,143 - INFO - Using device: cuda
+2024-09-02 16:31:09,650 - INFO - Dataset loaded.
+2024-09-02 16:31:11,351 - INFO - Label mapping: {0: 'ACCOUNTANT', 1: 'ADVOCATE', 2: 'AGRICULTURE', 3: 'APPAREL', 4: 'ARTS', 5: 'AUTOMOBILE', 6: 'AVIATION', 7: 'BANKING', 8: 'BPO', 9: 'BUSINESS-DEVELOPMENT', 10: 'CHEF', 11: 'CONSTRUCTION', 12: 'CONSULTANT', 13: 'DESIGNER', 14: 'DIGITAL-MEDIA', 15: 'ENGINEERING', 16: 'FINANCE', 17: 'FITNESS', 18: 'HEALTHCARE', 19: 'HR', 20: 'INFORMATION-TECHNOLOGY', 21: 'PUBLIC-RELATIONS', 22: 'SALES', 23: 'TEACHER'}
+2024-09-02 16:39:57,779 - INFO - Dataset loaded.
+2024-09-02 16:42:36,593 - INFO - Dataset loaded.
+2024-09-02 17:06:55,951 - INFO - Model training completed.
+2024-09-02 17:06:55,952 - INFO - Best parameters: {'clf__max_depth': None, 'clf__min_samples_split': 2, 'clf__n_estimators': 300, 'tfidf__max_df': 0.75, 'tfidf__min_df': 1, 'tfidf__ngram_range': (1, 2)}
+2024-09-02 17:06:55,952 - INFO - Best cross-validation score: 0.75
+2024-09-02 17:06:56,418 - INFO - Model accuracy: 0.76
+2024-09-02 17:06:56,418 - INFO - Model precision: 0.77
+2024-09-02 17:06:56,418 - INFO - Model recall: 0.76
+2024-09-02 17:06:56,418 - INFO - Model F1 score: 0.75
+2024-09-02 17:06:56,418 - INFO - Classification Report:
+2024-09-02 17:06:56,430 - INFO -                         precision    recall  f1-score   support
+
+            ACCOUNTANT       0.85      0.97      0.90        29
+              ADVOCATE       0.88      0.70      0.78        30
+           AGRICULTURE       0.67      0.25      0.36         8
+               APPAREL       0.69      0.45      0.55        20
+                  ARTS       0.29      0.22      0.25        18
+            AUTOMOBILE       1.00      0.17      0.29         6
+              AVIATION       0.77      0.81      0.79        21
+               BANKING       0.86      0.78      0.82        23
+                   BPO       0.00      0.00      0.00         2
+  BUSINESS-DEVELOPMENT       1.00      0.85      0.92        27
+                  CHEF       0.89      0.71      0.79        24
+          CONSTRUCTION       0.94      0.88      0.91        34
+            CONSULTANT       0.86      0.60      0.71        20
+              DESIGNER       0.77      0.89      0.83        19
+         DIGITAL-MEDIA       0.96      0.88      0.92        25
+           ENGINEERING       0.62      0.76      0.68        21
+               FINANCE       0.79      0.79      0.79        19
+               FITNESS       0.86      0.63      0.73        19
+            HEALTHCARE       0.57      0.60      0.59        20
+                    HR       0.70      0.89      0.78        18
+INFORMATION-TECHNOLOGY       0.58      1.00      0.73        26
+      PUBLIC-RELATIONS       0.74      0.82      0.78        17
+                 SALES       0.79      0.90      0.84        29
+               TEACHER       0.61      0.91      0.73        22
+
+              accuracy                           0.76       497
+             macro avg       0.74      0.69      0.69       497
+          weighted avg       0.77      0.76      0.75       497
+
+2024-09-02 17:06:56,616 - INFO - Model saved to resume_categorizer_model.pkl
+2024-09-02 17:06:56,753 - INFO - Model loaded.
+2024-09-02 17:06:57,573 - INFO - Predicted categories: ['TEACHER' 'HR' 'AGRICULTURE']
+2024-09-02 17:06:58,941 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 17:16:24,163 - INFO - Model training completed.
+2024-09-02 17:16:24,935 - INFO - Model saved to resume_categorizer_transformer_model
+2024-09-02 17:16:33,134 - INFO - Evaluation metrics: {'eval_loss': 0.823199450969696, 'eval_accuracy': 0.8088531187122736, 'eval_precision': 0.7982491756943786, 'eval_recall': 0.8088531187122736, 'eval_f1': 0.7955221753035691, 'eval_runtime': 8.1984, 'eval_samples_per_second': 60.622, 'eval_steps_per_second': 1.952, 'epoch': 30.0}
+2024-09-02 17:16:33,289 - INFO - Model and tokenizer loaded.
+2024-09-02 17:16:33,884 - INFO - Predicted categories: ['TEACHER', 'AGRICULTURE', 'AGRICULTURE']
+2024-09-02 17:16:35,143 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 17:17:27,699 - INFO - Dataset loaded.
+2024-09-02 17:20:10,756 - INFO - Dataset loaded.
+2024-09-02 17:21:35,473 - INFO - Dataset loaded.
+2024-09-02 17:41:25,228 - INFO - Model training completed.
+2024-09-02 17:41:25,228 - INFO - Best parameters: {'clf__max_depth': None, 'clf__min_samples_split': 5, 'clf__n_estimators': 300, 'tfidf__max_df': 0.75, 'tfidf__min_df': 5, 'tfidf__ngram_range': (1, 2)}
+2024-09-02 17:41:25,228 - INFO - Best cross-validation score: 0.74
+2024-09-02 17:41:25,614 - INFO - Model accuracy: 0.76
+2024-09-02 17:41:25,614 - INFO - Model precision: 0.76
+2024-09-02 17:41:25,614 - INFO - Model recall: 0.76
+2024-09-02 17:41:25,614 - INFO - Model F1 score: 0.75
+2024-09-02 17:41:25,614 - INFO - Classification Report:
+2024-09-02 17:41:25,626 - INFO -                         precision    recall  f1-score   support
+
+            ACCOUNTANT       0.82      0.93      0.87        29
+              ADVOCATE       0.96      0.80      0.87        30
+           AGRICULTURE       0.67      0.25      0.36         8
+               APPAREL       0.77      0.50      0.61        20
+                  ARTS       0.36      0.22      0.28        18
+            AUTOMOBILE       0.00      0.00      0.00         6
+              AVIATION       0.82      0.86      0.84        21
+               BANKING       0.84      0.70      0.76        23
+                   BPO       0.00      0.00      0.00         2
+  BUSINESS-DEVELOPMENT       1.00      0.81      0.90        27
+                  CHEF       0.86      0.75      0.80        24
+          CONSTRUCTION       0.91      0.91      0.91        34
+            CONSULTANT       0.79      0.55      0.65        20
+              DESIGNER       0.80      0.84      0.82        19
+         DIGITAL-MEDIA       0.96      0.88      0.92        25
+           ENGINEERING       0.62      0.71      0.67        21
+               FINANCE       0.64      0.74      0.68        19
+               FITNESS       0.92      0.63      0.75        19
+            HEALTHCARE       0.56      0.70      0.62        20
+                    HR       0.70      0.89      0.78        18
+INFORMATION-TECHNOLOGY       0.58      1.00      0.73        26
+      PUBLIC-RELATIONS       0.68      0.76      0.72        17
+                 SALES       0.79      0.90      0.84        29
+               TEACHER       0.61      0.91      0.73        22
+
+              accuracy                           0.76       497
+             macro avg       0.69      0.68      0.67       497
+          weighted avg       0.76      0.76      0.75       497
+
+2024-09-02 17:41:25,784 - INFO - Model saved to resume_categorizer_model.pkl
+2024-09-02 17:41:25,902 - INFO - Model loaded.
+2024-09-02 17:41:26,575 - INFO - Predicted categories: ['TEACHER' 'HR' 'AGRICULTURE']
+2024-09-02 17:41:27,729 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 17:45:55,215 - INFO - Dataset loaded.
+2024-09-02 18:05:45,606 - INFO - Model training completed.
+2024-09-02 18:05:45,606 - INFO - Best parameters: {'clf__max_depth': None, 'clf__min_samples_split': 5, 'clf__n_estimators': 300, 'tfidf__max_df': 0.75, 'tfidf__min_df': 5, 'tfidf__ngram_range': (1, 2)}
+2024-09-02 18:05:45,606 - INFO - Best cross-validation score: 0.74
+2024-09-02 18:05:45,994 - INFO - Model accuracy: 0.76
+2024-09-02 18:05:45,994 - INFO - Model precision: 0.76
+2024-09-02 18:05:45,994 - INFO - Model recall: 0.76
+2024-09-02 18:05:45,994 - INFO - Model F1 score: 0.75
+2024-09-02 18:05:45,994 - INFO - Classification Report:
+2024-09-02 18:05:46,005 - INFO -                         precision    recall  f1-score   support
+
+            ACCOUNTANT       0.82      0.93      0.87        29
+              ADVOCATE       0.96      0.80      0.87        30
+           AGRICULTURE       0.67      0.25      0.36         8
+               APPAREL       0.77      0.50      0.61        20
+                  ARTS       0.36      0.22      0.28        18
+            AUTOMOBILE       0.00      0.00      0.00         6
+              AVIATION       0.82      0.86      0.84        21
+               BANKING       0.84      0.70      0.76        23
+                   BPO       0.00      0.00      0.00         2
+  BUSINESS-DEVELOPMENT       1.00      0.81      0.90        27
+                  CHEF       0.86      0.75      0.80        24
+          CONSTRUCTION       0.91      0.91      0.91        34
+            CONSULTANT       0.79      0.55      0.65        20
+              DESIGNER       0.80      0.84      0.82        19
+         DIGITAL-MEDIA       0.96      0.88      0.92        25
+           ENGINEERING       0.62      0.71      0.67        21
+               FINANCE       0.64      0.74      0.68        19
+               FITNESS       0.92      0.63      0.75        19
+            HEALTHCARE       0.56      0.70      0.62        20
+                    HR       0.70      0.89      0.78        18
+INFORMATION-TECHNOLOGY       0.58      1.00      0.73        26
+      PUBLIC-RELATIONS       0.68      0.76      0.72        17
+                 SALES       0.79      0.90      0.84        29
+               TEACHER       0.61      0.91      0.73        22
+
+              accuracy                           0.76       497
+             macro avg       0.69      0.68      0.67       497
+          weighted avg       0.76      0.76      0.75       497
+
+2024-09-02 18:05:46,166 - INFO - Model saved to resume_categorizer_model.pkl
+2024-09-02 18:05:46,283 - INFO - Model loaded.
+2024-09-02 18:10:32,488 - INFO - Dataset loaded.
+2024-09-02 18:10:55,120 - INFO - Model loaded.
+2024-09-02 18:10:57,563 - INFO - Predicted categories: ['TEACHER' 'AGRICULTURE' 'HR']
+2024-09-02 18:10:58,888 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 18:14:37,225 - INFO - Model loaded.
+2024-09-02 18:14:39,795 - INFO -  Filename: ('Mahmuda_Akhter_CV (1).pdf', 'Dip_Barua_CV.pdf', 'Abu_Bakar_Siddik_Nayem_Resume.pdf', 'Shahriar-Cv.pdf', 'CV (New Version) 2 with picture.pdf', 'Md. Injamul Haque (CV) & Cover Lertter.pdf') , Predicted categories: ['TEACHER' 'INFORMATION-TECHNOLOGY' 'AGRICULTURE' 'ARTS' 'HR'
+ 'ENGINEERING']
+2024-09-02 18:14:40,938 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 18:16:29,397 - INFO - Model loaded.
+2024-09-02 18:16:31,975 - INFO - Filenames and Predicted Categories: ['Mahmuda_Akhter_CV (1).pdf: TEACHER', 'Dip_Barua_CV.pdf: INFORMATION-TECHNOLOGY', 'Abu_Bakar_Siddik_Nayem_Resume.pdf: AGRICULTURE', 'Shahriar-Cv.pdf: ARTS', 'CV (New Version) 2 with picture.pdf: HR', 'Md. Injamul Haque (CV) & Cover Lertter.pdf: ENGINEERING']
+2024-09-02 18:16:33,303 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 18:35:54,341 - INFO - Using device: cuda
+2024-09-02 18:35:54,622 - INFO - Model and tokenizer loaded.
+2024-09-02 18:35:55,815 - INFO - Predicted categories: ['TEACHER', 'INFORMATION-TECHNOLOGY', 'AGRICULTURE', 'ARTS', 'AGRICULTURE', 'HEALTHCARE']
+2024-09-02 18:35:57,133 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-02 18:58:23,582 - INFO - Using device: cuda
+2024-09-02 18:58:23,864 - INFO - Model and tokenizer loaded.
+2024-09-02 18:58:24,998 - INFO - Filenames and Predicted Categories: ['Mahmuda_Akhter_CV (1).pdf: TEACHER', 'Dip_Barua_CV.pdf: INFORMATION-TECHNOLOGY', 'Abu_Bakar_Siddik_Nayem_Resume.pdf: AGRICULTURE', 'Shahriar-Cv.pdf: ARTS', 'CV (New Version) 2 with picture.pdf: AGRICULTURE', 'Md. Injamul Haque (CV) & Cover Lertter.pdf: HEALTHCARE']
+2024-09-02 18:58:26,143 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-03 15:29:29,741 - INFO - Model loaded.
+2024-09-03 15:29:32,477 - INFO - Filenames and Predicted Categories: ['Mahmuda_Akhter_CV (1).pdf: TEACHER', 'Dip_Barua_CV.pdf: INFORMATION-TECHNOLOGY', 'Abu_Bakar_Siddik_Nayem_Resume.pdf: AGRICULTURE', 'Shahriar-Cv.pdf: ARTS', 'CV (New Version) 2 with picture.pdf: HR', 'Md. Injamul Haque (CV) & Cover Lertter.pdf: ENGINEERING']
+2024-09-03 15:29:33,714 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-03 15:37:58,247 - INFO - Dataset loaded.
+2024-09-03 15:39:49,971 - INFO - Dataset loaded.
+2024-09-03 16:00:17,686 - INFO - Model training completed.
+2024-09-03 16:00:17,686 - INFO - Best parameters: {'clf__max_depth': None, 'clf__min_samples_split': 10, 'clf__n_estimators': 300, 'tfidf__max_df': 0.75, 'tfidf__min_df': 5, 'tfidf__ngram_range': (1, 2)}
+2024-09-03 16:00:17,686 - INFO - Best cross-validation score: 0.75
+2024-09-03 16:00:18,066 - INFO - Model accuracy: 0.78
+2024-09-03 16:00:18,066 - INFO - Model precision: 0.78
+2024-09-03 16:00:18,066 - INFO - Model recall: 0.78
+2024-09-03 16:00:18,066 - INFO - Model F1 score: 0.77
+2024-09-03 16:00:18,066 - INFO - Classification Report:
+2024-09-03 16:00:18,077 - INFO -                         precision    recall  f1-score   support
+
+            ACCOUNTANT       0.80      0.97      0.88        29
+              ADVOCATE       0.92      0.77      0.84        30
+           AGRICULTURE       0.67      0.25      0.36         8
+               APPAREL       0.80      0.60      0.69        20
+                  ARTS       0.50      0.28      0.36        18
+            AUTOMOBILE       0.50      0.17      0.25         6
+              AVIATION       0.82      0.86      0.84        21
+               BANKING       0.76      0.70      0.73        23
+                   BPO       0.00      0.00      0.00         2
+  BUSINESS-DEVELOPMENT       0.96      0.81      0.88        27
+                  CHEF       0.90      0.79      0.84        24
+          CONSTRUCTION       0.89      0.94      0.91        34
+            CONSULTANT       1.00      0.60      0.75        20
+              DESIGNER       0.81      0.89      0.85        19
+         DIGITAL-MEDIA       0.92      0.88      0.90        25
+           ENGINEERING       0.70      0.76      0.73        21
+               FINANCE       0.70      0.74      0.72        19
+               FITNESS       1.00      0.74      0.85        19
+            HEALTHCARE       0.57      0.60      0.59        20
+                    HR       0.71      0.94      0.81        18
+INFORMATION-TECHNOLOGY       0.62      1.00      0.76        26
+      PUBLIC-RELATIONS       0.68      0.76      0.72        17
+                 SALES       0.78      0.86      0.82        29
+               TEACHER       0.62      0.91      0.74        22
+
+              accuracy                           0.78       497
+             macro avg       0.73      0.70      0.70       497
+          weighted avg       0.78      0.78      0.77       497
+
+2024-09-03 16:00:18,079 - INFO - Confusion Matrix:
+[[28  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0]
+ [ 0 23  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  2  1  0  0  0  3]
+ [ 1  0  2  0  0  0  0  1  0  0  0  0  0  0  0  1  0  0  0  0  0  1  0  2]
+ [ 0  0  0 12  1  1  0  1  0  0  0  0  0  1  0  2  0  0  0  0  0  0  1  1]
+ [ 0  0  0  0  5  0  0  0  0  0  2  0  0  1  0  1  0  0  0  2  2  1  0  4]
+ [ 0  1  1  0  1  1  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0 18  0  0  0  0  0  0  0  0  1  0  0  0  0  2  0  0  0]
+ [ 1  0  0  0  1  0  0 16  0  1  0  0  0  0  0  0  4  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  1  0 22  0  0  0  0  0  0  1  0  1  0  1  1  0  0]
+ [ 0  0  0  1  1  0  1  0  0  0 19  0  0  0  0  0  0  0  1  0  0  0  0  1]
+ [ 0  0  0  1  0  0  0  0  0  0  0 32  0  0  0  0  0  0  1  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  1  0  0  0  1 12  0  0  0  0  0  1  1  3  1  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  2  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0  0  0  0  0  0  0 22  0  0  0  0  0  1  1  0  0]
+ [ 1  0  0  0  0  0  1  0  0  0  0  1  0  0  0 16  0  0  0  0  2  0  0  0]
+ [ 4  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0 14  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 14  0  0  0  0  5  0]
+ [ 0  1  0  0  0  0  0  0  0  0  0  1  0  0  1  0  0  0 12  2  3  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  1  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 26  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  1  0 13  1  1]
+ [ 0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  1  0 25  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  0 20]]
+2024-09-03 16:00:18,436 - INFO - Model saved to resume_categorizer_model.pkl
+2024-09-03 16:00:18,580 - INFO - Model loaded.
+2024-09-03 16:00:19,395 - INFO - Filenames and Predicted Categories: ['Mahmuda_Akhter_CV (1).pdf: TEACHER', 'Dip_Barua_CV.pdf: INFORMATION-TECHNOLOGY', 'Abu_Bakar_Siddik_Nayem_Resume.pdf: AGRICULTURE', 'Shahriar-Cv.pdf: ARTS', 'CV (New Version) 2 with picture.pdf: HR', 'Md. Injamul Haque (CV) & Cover Lertter.pdf: ENGINEERING']
+2024-09-03 16:00:20,542 - INFO - Updated resumes saved to Newly_Updated_Resume.csv
+2024-09-03 16:08:24,840 - INFO - Dataset loaded.
+2024-09-03 16:10:47,309 - INFO - Model training completed.
+2024-09-03 16:10:47,749 - INFO - Model accuracy: 0.78
+2024-09-03 16:10:47,750 - INFO - Model precision: 0.78
+2024-09-03 16:10:47,750 - INFO - Model recall: 0.78
+2024-09-03 16:10:47,750 - INFO - Model F1 score: 0.77
+2024-09-03 16:10:47,750 - INFO - Classification Report:
+2024-09-03 16:10:47,761 - INFO -                         precision    recall  f1-score   support
+
+            ACCOUNTANT       0.80      0.97      0.88        29
+              ADVOCATE       0.92      0.77      0.84        30
+           AGRICULTURE       0.67      0.25      0.36         8
+               APPAREL       0.80      0.60      0.69        20
+                  ARTS       0.50      0.28      0.36        18
+            AUTOMOBILE       0.50      0.17      0.25         6
+              AVIATION       0.82      0.86      0.84        21
+               BANKING       0.76      0.70      0.73        23
+                   BPO       0.00      0.00      0.00         2
+  BUSINESS-DEVELOPMENT       0.96      0.81      0.88        27
+                  CHEF       0.90      0.79      0.84        24
+          CONSTRUCTION       0.89      0.94      0.91        34
+            CONSULTANT       1.00      0.60      0.75        20
+              DESIGNER       0.81      0.89      0.85        19
+         DIGITAL-MEDIA       0.92      0.88      0.90        25
+           ENGINEERING       0.70      0.76      0.73        21
+               FINANCE       0.70      0.74      0.72        19
+               FITNESS       1.00      0.74      0.85        19
+            HEALTHCARE       0.57      0.60      0.59        20
+                    HR       0.71      0.94      0.81        18
+INFORMATION-TECHNOLOGY       0.62      1.00      0.76        26
+      PUBLIC-RELATIONS       0.68      0.76      0.72        17
+                 SALES       0.78      0.86      0.82        29
+               TEACHER       0.62      0.91      0.74        22
+
+              accuracy                           0.78       497
+             macro avg       0.73      0.70      0.70       497
+          weighted avg       0.78      0.78      0.77       497
+
+2024-09-03 16:10:47,764 - INFO - Confusion Matrix:
+[[28  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0]
+ [ 0 23  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  2  1  0  0  0  3]
+ [ 1  0  2  0  0  0  0  1  0  0  0  0  0  0  0  1  0  0  0  0  0  1  0  2]
+ [ 0  0  0 12  1  1  0  1  0  0  0  0  0  1  0  2  0  0  0  0  0  0  1  1]
+ [ 0  0  0  0  5  0  0  0  0  0  2  0  0  1  0  1  0  0  0  2  2  1  0  4]
+ [ 0  1  1  0  1  1  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0 18  0  0  0  0  0  0  0  0  1  0  0  0  0  2  0  0  0]
+ [ 1  0  0  0  1  0  0 16  0  1  0  0  0  0  0  0  4  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  1  0 22  0  0  0  0  0  0  1  0  1  0  1  1  0  0]
+ [ 0  0  0  1  1  0  1  0  0  0 19  0  0  0  0  0  0  0  1  0  0  0  0  1]
+ [ 0  0  0  1  0  0  0  0  0  0  0 32  0  0  0  0  0  0  1  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  1  0  0  0  1 12  0  0  0  0  0  1  1  3  1  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  2  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0  0  0  0  0  0  0 22  0  0  0  0  0  1  1  0  0]
+ [ 1  0  0  0  0  0  1  0  0  0  0  1  0  0  0 16  0  0  0  0  2  0  0  0]
+ [ 4  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0 14  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 14  0  0  0  0  5  0]
+ [ 0  1  0  0  0  0  0  0  0  0  0  1  0  0  1  0  0  0 12  2  3  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  1  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 26  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  1  0 13  1  1]
+ [ 0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  1  0 25  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  0 20]]
+2024-09-03 16:10:47,940 - INFO - Model saved to resume_categorizer_model.pkl
+2024-09-03 16:10:48,028 - INFO - Model loaded.
+2024-09-03 16:10:48,841 - INFO - Filenames and Predicted Categories: ['Mahmuda_Akhter_CV (1).pdf: TEACHER', 'Dip_Barua_CV.pdf: INFORMATION-TECHNOLOGY', 'Abu_Bakar_Siddik_Nayem_Resume.pdf: AGRICULTURE', 'Shahriar-Cv.pdf: ARTS', 'CV (New Version) 2 with picture.pdf: HR', 'Md. Injamul Haque (CV) & Cover Lertter.pdf: ENGINEERING']
+2024-09-03 16:10:50,152 - INFO - Updated CSV saved to Newly_Updated_Resume.csv
+2024-09-03 16:17:55,459 - INFO - Dataset loaded.
+2024-09-03 16:30:26,393 - INFO - Model loaded.
+2024-09-03 16:30:28,995 - INFO - Filenames and Predicted Categories: ['Mahmuda_Akhter_CV (1).pdf: TEACHER', 'Dip_Barua_CV.pdf: INFORMATION-TECHNOLOGY', 'Abu_Bakar_Siddik_Nayem_Resume.pdf: AGRICULTURE', 'Shahriar-Cv.pdf: ARTS', 'CV (New Version) 2 with picture.pdf: HR', 'Md. Injamul Haque (CV) & Cover Lertter.pdf: ENGINEERING']
+2024-09-03 16:30:30,308 - INFO - Updated CSV saved to Newly_Updated_Resume.csv
+2024-09-03 16:42:38,679 - INFO - Model loaded.
+2024-09-03 16:42:40,877 - INFO - Moved Mahmuda_Akhter_CV (1).pdf to dataset/Resume/TEACHER
+2024-09-03 16:42:40,877 - INFO - Moved Dip_Barua_CV.pdf to dataset/Resume/INFORMATION-TECHNOLOGY
+2024-09-03 16:42:40,877 - INFO - Moved Abu_Bakar_Siddik_Nayem_Resume.pdf to dataset/Resume/AGRICULTURE
+2024-09-03 16:42:40,878 - INFO - Moved Shahriar-Cv.pdf to dataset/Resume/ARTS
+2024-09-03 16:42:40,878 - INFO - Moved CV (New Version) 2 with picture.pdf to dataset/Resume/HR
+2024-09-03 16:42:40,878 - INFO - Moved Md. Injamul Haque (CV) & Cover Lertter.pdf to dataset/Resume/ENGINEERING
+2024-09-03 16:42:40,879 - INFO - Categorized resumes saved to dataset/Resume/categorized_resumes.csv
+2024-09-03 16:53:46,791 - INFO - Dataset loaded.
+2024-09-03 16:53:58,564 - INFO - Model loaded.
+2024-09-03 16:53:58,564 - INFO - No new resumes found.
+2024-09-03 16:54:44,299 - INFO - Model loaded.
+2024-09-03 16:54:44,299 - INFO - No new resumes found.
+2024-09-03 16:56:13,059 - INFO - Model loaded.
+2024-09-03 16:56:15,132 - INFO - Moved Mahmuda_Akhter_CV (1).pdf to dataset/Test/TEACHER
+2024-09-03 16:56:15,132 - INFO - Moved Dip_Barua_CV.pdf to dataset/Test/INFORMATION-TECHNOLOGY
+2024-09-03 16:56:15,133 - INFO - Moved Abu_Bakar_Siddik_Nayem_Resume.pdf to dataset/Test/AGRICULTURE
+2024-09-03 16:56:15,133 - INFO - Moved Shahriar-Cv.pdf to dataset/Test/ARTS
+2024-09-03 16:56:15,140 - INFO - Moved CV (New Version) 2 with picture.pdf to dataset/Test/HR
+2024-09-03 16:56:15,141 - INFO - Moved Md. Injamul Haque (CV) & Cover Lertter.pdf to dataset/Test/ENGINEERING
+2024-09-03 16:56:15,142 - INFO - Categorized resumes saved to dataset/Test/categorized_resumes.csv
+2024-09-03 17:01:07,029 - INFO - Model loaded.
+2024-09-03 17:02:32,886 - INFO - Model loaded.
+2024-09-03 17:02:34,981 - INFO - Moved Mahmuda_Akhter_CV (1).pdf to results/TEACHER
+2024-09-03 17:02:34,982 - INFO - Moved Dip_Barua_CV.pdf to results/INFORMATION-TECHNOLOGY
+2024-09-03 17:02:34,982 - INFO - Moved Abu_Bakar_Siddik_Nayem_Resume.pdf to results/AGRICULTURE
+2024-09-03 17:02:34,982 - INFO - Moved Shahriar-Cv.pdf to results/ARTS
+2024-09-03 17:02:34,982 - INFO - Moved CV (New Version) 2 with picture.pdf to results/HR
+2024-09-03 17:02:34,982 - INFO - Moved Md. Injamul Haque (CV) & Cover Lertter.pdf to results/ENGINEERING
+2024-09-03 17:02:34,984 - INFO - Categorized resumes saved to results/categorized_resumes.csv
+2024-09-03 18:03:49,682 - ERROR - Usage: python script.py path/to/dir
+2024-09-03 18:06:44,708 - INFO - Model loaded.
+2024-09-03 18:06:46,881 - INFO - Moved Mahmuda_Akhter_CV (1).pdf to results/TEACHER
+2024-09-03 18:06:46,881 - INFO - Moved Dip_Barua_CV.pdf to results/INFORMATION-TECHNOLOGY
+2024-09-03 18:06:46,881 - INFO - Moved Abu_Bakar_Siddik_Nayem_Resume.pdf to results/AGRICULTURE
+2024-09-03 18:06:46,881 - INFO - Moved Shahriar-Cv.pdf to results/ARTS
+2024-09-03 18:06:46,881 - INFO - Moved CV (New Version) 2 with picture.pdf to results/HR
+2024-09-03 18:06:46,881 - INFO - Moved Md. Injamul Haque (CV) & Cover Lertter.pdf to results/ENGINEERING
+2024-09-03 18:06:46,883 - INFO - Categorized resumes saved to results/categorized_resumes.csv
+2024-09-03 18:07:01,833 - INFO - Dataset loaded.
+2024-09-03 18:07:22,720 - INFO - Dataset loaded.
+2024-09-03 18:09:50,809 - INFO - Model training completed.
+2024-09-03 18:09:51,303 - INFO - Model accuracy: 0.76
+2024-09-03 18:09:51,303 - INFO - Model precision: 0.78
+2024-09-03 18:09:51,303 - INFO - Model recall: 0.76
+2024-09-03 18:09:51,303 - INFO - Model F1 score: 0.76
+2024-09-03 18:09:51,314 - INFO - Classification Report:
+                        precision    recall  f1-score   support
+
+            ACCOUNTANT       0.82      0.97      0.89        29
+              ADVOCATE       0.96      0.77      0.85        30
+           AGRICULTURE       0.75      0.38      0.50         8
+               APPAREL       0.79      0.55      0.65        20
+                  ARTS       0.42      0.28      0.33        18
+            AUTOMOBILE       0.50      0.17      0.25         6
+              AVIATION       0.82      0.86      0.84        21
+               BANKING       0.76      0.70      0.73        23
+                   BPO       0.00      0.00      0.00         2
+  BUSINESS-DEVELOPMENT       0.96      0.81      0.88        27
+                  CHEF       0.86      0.75      0.80        24
+          CONSTRUCTION       0.91      0.94      0.93        34
+            CONSULTANT       0.91      0.50      0.65        20
+              DESIGNER       0.81      0.89      0.85        19
+         DIGITAL-MEDIA       0.84      0.84      0.84        25
+           ENGINEERING       0.74      0.81      0.77        21
+               FINANCE       0.72      0.68      0.70        19
+               FITNESS       1.00      0.53      0.69        19
+            HEALTHCARE       0.54      0.70      0.61        20
+                    HR       0.68      0.94      0.79        18
+INFORMATION-TECHNOLOGY       0.57      1.00      0.72        26
+      PUBLIC-RELATIONS       0.80      0.71      0.75        17
+                 SALES       0.79      0.90      0.84        29
+               TEACHER       0.62      0.91      0.74        22
+
+              accuracy                           0.76       497
+             macro avg       0.73      0.69      0.69       497
+          weighted avg       0.78      0.76      0.76       497
+
+2024-09-03 18:09:51,316 - INFO - Confusion Matrix:
+[[28  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0]
+ [ 0 23  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  2  1  0  0  0  3]
+ [ 1  0  3  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  1  0  0  2]
+ [ 0  0  0 11  2  1  0  1  0  0  0  0  1  1  0  1  0  0  0  0  0  0  2  0]
+ [ 0  0  0  0  5  0  0  0  0  0  2  0  0  1  0  0  0  0  0  2  3  1  0  4]
+ [ 0  1  1  0  2  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0 18  0  0  0  0  0  0  0  0  1  0  0  0  0  2  0  0  0]
+ [ 1  0  0  0  1  0  0 16  0  1  0  0  0  0  0  0  3  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  1  0 22  0  0  0  0  1  0  0  0  2  0  1  0  0  0]
+ [ 0  0  0  1  1  0  1  0  0  0 18  0  0  0  0  0  0  0  2  0  0  0  0  1]
+ [ 0  0  0  1  0  0  0  0  0  0  0 32  0  0  0  0  0  0  1  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  1 10  0  1  1  1  0  1  1  4  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  2  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0  0  0  0  0  0  0 21  0  0  0  0  0  1  2  0  0]
+ [ 1  0  0  0  0  0  1  0  0  0  0  0  0  0  0 17  0  0  0  0  2  0  0  0]
+ [ 3  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0 13  0  0  1  0  0  0  0]
+ [ 0  0  0  0  0  0  1  1  0  0  0  0  0  0  0  0  0 10  2  0  0  0  4  1]
+ [ 0  0  0  0  0  0  0  0  0  0  0  1  0  0  1  0  0  0 14  2  2  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0 17  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 26  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  1  1 12  1  1]
+ [ 0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  1  0 26  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  0 20]]
+2024-09-03 18:09:51,464 - INFO - Model saved to resume_categorizer_model.pkl
+2024-09-03 18:19:11,423 - INFO - Model loaded.
+2024-09-03 18:19:13,652 - INFO - Moved Mahmuda_Akhter_CV (1).pdf to results/TEACHER
+2024-09-03 18:19:13,652 - INFO - Moved Dip_Barua_CV.pdf to results/INFORMATION-TECHNOLOGY
+2024-09-03 18:19:13,652 - INFO - Moved Abu_Bakar_Siddik_Nayem_Resume.pdf to results/AGRICULTURE
+2024-09-03 18:19:13,652 - INFO - Moved Shahriar-Cv.pdf to results/ARTS
+2024-09-03 18:19:13,653 - INFO - Moved CV (New Version) 2 with picture.pdf to results/HR
+2024-09-03 18:19:13,653 - INFO - Moved Md. Injamul Haque (CV) & Cover Lertter.pdf to results/ENGINEERING
+2024-09-03 18:19:13,654 - INFO - Categorized resumes saved to results/categorized_resumes.csv
